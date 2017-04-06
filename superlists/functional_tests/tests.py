@@ -18,8 +18,6 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertIn(row_text, [row.text for row in rows])
 
 
-
-
     def test_can_start_a_list_and_retrieve_it_later(self):
         self.browser.get(self.live_server_url)
 
